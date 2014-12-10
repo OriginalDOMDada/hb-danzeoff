@@ -1,0 +1,358 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeue-webfont.woff') format('woff'),
+    url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+    url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	display: block;
+}
+
+h1 {
+	font-family: 'bebas_neueregular' sans-serif;
+	color: #7f5ed4;
+	font-size: 3.5em;
+}
+
+.paragraph-block-left {
+	position: relative;
+	padding-top: 25px;
+	font-size: 1.35em;
+	line-height: 1.7em;
+	max-width: 450px;
+
+}
+
+.paragraph-block-center {
+	position: relative;
+	padding-top: 25px;
+	font-size: 1.35em;
+	line-height: 1.7em;
+	width: 100%;
+
+
+}
+.nav {
+	position: fixed;
+	width: 100vw;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all .5s ease;
+}
+
+.past-home {
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 5px 5px #bdbdbd;
+	transition: all .5s ease;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 8px 20px 0 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.main-image {
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+
+.home {
+	background-image: url(../img/main-background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: 110% auto;
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	z-index: 500;
+}
+
+.trick {
+	position: fixed;
+	z-index: 1;
+}
+
+#circle {
+	position: fixed;
+	height: 125px;
+	width: auto;
+	top: 125px;
+	right: 5px;
+	z-index: 1;
+}
+
+#danze-off {
+	position: fixed;
+	height: 350px;
+	width: auto;
+	top: 170px;
+	left: 6px;
+	z-index: 1;
+}
+
+
+.about {
+
+	height: 100vh;
+	background-color: white;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+
+}
+
+.about-image {
+	position: absolute;
+	display: inline-block;
+	height: 510px;
+	margin-top: -410px;
+	right: 75px;
+
+}
+
+.content {
+	position: relative;
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 70px;
+
+}
+
+.button {
+	font-family: 'bebas_neueregular' sans-serif;
+	margin-top: 50px;
+	padding: 10px 0 0 0;
+	height: 30px;
+	width: 100px;
+	border: 4px solid #7f5ed4;
+	color: #7f5ed4;
+	z-index: 1000;
+	background: transparent;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.25em;
+	transition: all .25s ease;
+}
+
+.button:hover {
+	border: 4px solid #109ffb;
+	background-color: #109ffb;
+	color: white;
+	border-radius: 10px;
+	transition: all .25 ease; 
+
+}
+
+.one {
+	position: relative;
+	display: block;
+	float: right;
+	left: -550px;
+
+}
+
+.two {
+	position: absolute;
+	float: right;
+	right: 0px;
+	bottom: 147px;
+}
+
+.three {
+	position: absolute;
+	height: 48px;
+	width: 100px;
+	padding: 0;
+	right: 0;
+	top: 250px;
+}
+
+.videos {
+	height: 100vh;
+	background-color: #dddddd;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+
+}
+
+.rules {
+	height: 100vh;
+	background-color: white;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+
+}
+
+.video-left {
+	float:left;
+	background-color: black;
+	height: 200px;
+	width: 300px;
+	margin-top: 50px;
+
+}
+
+.video-center {
+	display: inline-block;
+	margin:0 auto;
+	background-color: black;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 50px;
+
+}
+
+.video-right {
+	background-color: black;
+	height: 200px;
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+
+}
+
+.rule-box {
+	position: relative;
+	margin-top: 25px;
+	right: 100px;
+	float: right;
+}
+
+.big-rule {
+	font-size: 3.5em;
+	font-family: 'bebas_neueregular' sans-serif;
+	color: #109ffb;
+	padding-bottom: 15px;
+}
+
+.rules-image {
+	position: relative;
+	height: 275px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.register {
+	height: 100vh;
+	background-color: #dddddd;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+
+}
+
+.register-form {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.register-form-box {
+	height: 30px;
+	width: 300px;
+	display: block;
+	font-size: 1.35em;
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: 4px solid white;
+	font-family: 'EB Garamond', serif;
+	padding-left: 5px;
+	color: #7f5ed4;
+	border-radius: 5px;
+}
+
+.other {
+	height: 38px;
+	width: 313px;
+	border-radius: 0;
+	padding: 0;
+}
+
+.form-left {
+	float:left;
+	margin-top: 20px;
+}
+
+
+.form-center {
+	display: inline-block;
+	margin:0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.form-right {
+	float: right;
+	margin-top: 20px;
+}
+
+#message {
+	width: 300px;
+	height: 189px;
+	background-color: transparent;
+	border: 4px solid white;
+	margin-bottom: 11px;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.35em;
+	color: #7f5ed4;
+	padding-left: 5px;
+}
+
+.tickets {
+	height: 100vh;
+	background-color: white;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+}
+
+.contact {
+	height: 100vh;
+	background-color: #dddddd;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;	
+}
+
+.eventbrite {
+	position: relative;
+	display: block;
+	margin-top: 50px;
+
+}
